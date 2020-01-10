@@ -133,7 +133,6 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY default.conf /etc/nginx/conf.d/default.conf
-#COPY default_http.conf.template /etc/nginx/conf.d/default_http.conf.template
 COPY index.html /var/www/html/index.html
 
 EXPOSE 80 443
